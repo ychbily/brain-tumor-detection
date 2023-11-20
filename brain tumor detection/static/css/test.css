@@ -1,0 +1,21 @@
+.loader {
+    color: #72c595;
+    border: 8px solid #374230; /* Light grey */
+    border-top: 8px solid #37b86d; /* Blue */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+}
+#result {
+    color: white;
+    position: relative;
+    z-index: 1;
+  }
+  
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
