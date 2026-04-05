@@ -1,0 +1,45 @@
+# Datasets (downloaded via Kaggle API)
+datasets/
+
+# Model files (too large for git, trained separately)
+*.keras
+*.h5
+
+# Uploads
+backend/uploads/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+
+# IDE / editor
+.qodo/
+.zencoder/
+.zenflow/
+.vscode/
+.idea/
+*.swp
+.gemini/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+secret.txt
+
+# Logs
+*.log
+
+# Node (frontend)
+node_modules/
+dist/
+bun.lockb
+
+# Docker
+docker-compose.override.yml
+
+# Debug
+out.txt
